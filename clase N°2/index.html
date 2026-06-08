@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Clase N°2</title>
+
+</head>
+<body>
+ <header>
+    <h1>Tutti Frutti</h1>
+</header>
+
+<div class="contenedor">
+    <table>
+        <thead>
+            <tr>
+                <th>Letra</th>
+                <th>Nombres</th>
+                <th>Animales</th>
+                <th>Colores</th>
+                <th>Cosas</th>
+                <th>Lugares</th>
+                <th>Objetos</th>
+                <th>Puntos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" id="letra"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="puntos"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="generarLetra()">Nueva letra</button>
+<button onclick="ingresar()">Calcular puntos</button>
+<button onclick="reiniciar()">Reiniciar</button>
+
+    <button onclick="ingresar()">Enviar</button>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
